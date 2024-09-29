@@ -38,3 +38,4 @@ terraform.rc
 
 kubernetes-api-bundle/
 kubernetes-frontend-bundle/
+kubernetes-loadbalancer-bundle/

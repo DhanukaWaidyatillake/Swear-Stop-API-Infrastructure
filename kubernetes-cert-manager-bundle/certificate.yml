@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: swear-stop-certificate
+  namespace: cert-manager
+spec:
+  secretName: swear-stop-certificate
+  issuerRef:
+    name: swear-stop-production-issuer
+    kind: ClusterIssuer
+  dnsNames:
+    - 'swear-stop.com'
